@@ -1,0 +1,31 @@
+body {
+  background: #eef3f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.task-column {
+  min-height: 250px;
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.task {
+  cursor: move;
+  transition: transform 0.2s;
+  user-select: none;
+}
+
+.task:hover {
+  transform: scale(1.02);
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+.section-bg {
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1650&q=80');
+  background-size: cover;
+  background-position: center;
+}
